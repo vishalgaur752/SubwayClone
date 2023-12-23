@@ -1,0 +1,231 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "roboto", sans-serif;
+}
+.navbar {
+    height: 77px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    position: fixed;
+    margin-top:  -77px;
+}
+
+.nav-logo  img{
+    height: 50%;
+    width: 20%;
+    margin-left: 50px;
+}
+.menu {
+    width: 25%;
+    display: flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 30px;
+    font-size: 100%;
+}
+a{
+    text-decoration: none;
+    color: #008938;
+}
+.nav-link {
+    text-decoration: none;
+    cursor: pointer;
+}
+.selected-tab {
+    border-bottom: 3px solid #f2b700;
+    color: #008938;
+    font-size: 16px;
+}
+.hero-img{
+    background-image:  url(C:/Users/vishal/OneDrive/Desktop/HTML5/JavaScript/subwayClone/pexels-narda-yescas-1566837.jpg);
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-position: center;
+    margin-top: 77px;
+}
+.innerItems {
+    height: 80%;
+    width: 80%;
+    margin-left: 100px;
+    padding-top: 50px;
+}
+.innerItems img {
+    height: 42%;
+    width: 20%;
+}
+.innerItems button {
+    border: transparent;
+    border-radius: 20px;
+    width: 10rem;
+    height: 2.5rem;
+    background-size: cover;
+}
+.btn img {
+   height: 100%;
+   width: 100%;
+}
+.swiggi {
+    background-color: #fc8019;
+}
+.zomoto {
+    background-color: #f01628;
+}
+.video{
+    height: 480px;
+    width: 100%;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightgray;
+    background-size: cover;
+}
+.video video {
+    height: 84%;
+    width: 46.5%;
+    background-color: black;
+    border-radius: 20px;
+}
+.footer-logo {
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    
+}
+.footer-logo img{
+    position: absolute;  
+    height: 38px;
+    width: 38px;
+    padding-right: 20px;
+}  
+.main p {
+    padding-top: 20px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+
+/* about us */
+.main-sec {
+    height: 550px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ededed;
+    font-size: 16px;
+    font-family: "roboto", sans-serif;
+    margin-top: 77px;
+}
+
+.parahs {
+    height: 80%;
+    width: 40%;
+    padding-top: 80px;
+    padding-left: 100px;
+    font-weight: 600;
+    color: #008938;
+}
+.parahs p {
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+.footer{
+    height: 250px;
+    width: 100%;
+    background-color: #008938;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+.footer p {
+    color: #fff;
+}
+.footer-one {
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer-one h2 {
+    color: #fff;
+}
+.footer-one p {
+    color: #f2b700;
+}
+.footer-addresh {
+    width: 95%;
+}
+.footer-para {
+    width: 80%;
+}
+
+
+/* store locator */
+.main-store {
+    height: 800px;
+    width: 100%;
+    background-color: #ededed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 77px;
+}
+.adres {
+    height: 150px;
+    width: 80%;
+    background-color: #008000;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.para {
+    width: 100%;
+    
+}
+.adres p{
+    width: 88%;
+    font-size: 25px;
+    font-weight: 550;    
+    /* margin: 0 0 15px; */
+}
+.adres input{
+    margin-top: -20px;
+    width: 20%;
+    height: 35px;
+    border-radius: 5px;
+    border: transparent;
+    padding-left: 15px;
+}
+.bur-img {
+    width: 100%;
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: center;
+    /* align-items: center; */
+}
+.bur-img img{
+    height: 300px;
+    margin-top: -50px;
+}
+
+#para{
+    font-size: 30px;
+    margin-top: -50px;
+    text-align: center;
+}
+
+.storeLocat {
+    height: 70px;
+}
